@@ -15,7 +15,7 @@ En este segundo ejercicio se ha desarrollado un minijuego en el que el jugador c
 
 Para la implementación, inicialmente se orientan los pokemon's hacia el jugador con `transform.LookAt`. Cuando el jugador mira a un Pokémon, se ejecuta la función `OnPointerEnter`, que desactiva tanto sus `Renderer` como su `SphereCollider` para ocultarlo y evitar capturas repetidas. En ese mismo instante, se reduce el volumen de la música ambiente, se reproduce el grito del Pokémon mediante `sonidoPokemon.Play()`, se incrementa el contador en `jugador.puntos` y se muestra en el canvas. Por último, se utiliza `Invoke` para esperar a que el audio del Pokémon se reproduzca antes de restaurar el volumen de la música ambiente a su nivel normal.
 
-[▶️ Ver vídeo demostrativo del Ejercicio 2](ruta/a/tu/video2.mp4)
+![alt text](imagenes/Ejercicio_2.gif)
 
 ## Ejercicio 3: Atracción y recuperación mediante el cofre
 
@@ -23,4 +23,4 @@ Partiendo del escenario anterior, se ha añadido un cofre que permite reunir a l
 
 Para ello, se crea un evento personalizado  `OnEventoVista`. El cofre crea el evento, que se lanza al mirar el cofre dentro de su método `OnPointerEnter`. Por otra parte, cada Pokémon se responde a dicho evento moviéndose hacia el jugador. Cuando ya están considerablemente cerca se paran de acercar y quedan visibles delante del jugador.
 
-[▶️ Ver vídeo demostrativo del Ejercicio 3](ruta/a/tu/video3.mp4)
+![alt text](imagenes/Ejercicio_3.gif)
