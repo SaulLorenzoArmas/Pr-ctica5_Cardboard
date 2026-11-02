@@ -8,7 +8,7 @@ En esta primera parte se configura el proyecto con la escena de plantilla de Goo
 
 La escena incluye un objeto que reacciona a la vista del usuario: cuando el rayo de la cámara apunta hacia él (`OnPointerEnter`), cambia de material y color; al dejar de mirarlo (`OnPointerExit`), vuelve a su estado original; y al seleccionarlo (`OnPointerClick`), se teletransporta a una nueva posición aleatoria dentro de la escena.
 
-
+![alt text](imagenes/Ejercicio_1.gif)
 
 ## 2. Escena de recolección
 En este segundo ejercicio se ha desarrollado un minijuego en el que el jugador captura Pokémon utilizando la vista. El juego se ambienta en un bosque donde hay repartidos diferentes pokemon's que se van a capturar y guardar en un cofre. Cuando el jugador mira a un Pokémon, este desaparece de la escena, reproduce su sonido correspondiente y se actualiza el contador de pokemon's capturados.
